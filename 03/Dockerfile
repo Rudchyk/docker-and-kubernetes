@@ -7,6 +7,7 @@ WORKDIR /app
 # Step 2: Download and install dependency
 
 COPY package.json .
+COPY yarn.lock .
 RUN yarn install
 COPY . .
 

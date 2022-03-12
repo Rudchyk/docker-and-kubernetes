@@ -89,3 +89,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 `docker run -it frontend sh`
 `docker-compose up`
+`docker run -it frontend npm run test`
+`docker exec -it frontend npm run test`
+docker-compose -f docker-compose-dev.yml up
+docker-compose -f docker-compose-dev.yml up --build
+docker-compose -f docker-compose-dev.yml down
